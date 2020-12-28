@@ -147,7 +147,7 @@
    * version. In those cases, you will need to add an entry to the "allowedAlternativeVersions"
    * section of the common-versions.json.
    */
-  // "ensureConsistentVersions": true,
+  "ensureConsistentVersions": true,
 
   /**
    * Large monorepos can become intimidating for newcomers if project folder paths don't follow
@@ -384,6 +384,10 @@
     {
       "packageName": "@gergelyke/rush-next",
       "projectFolder": "apps/rush-next"
+    },
+    {
+      "packageName": "@gergelyke/rush-math",
+      "projectFolder": "libs/rush-math"
     }
     // {
     //   /**
