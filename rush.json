@@ -380,6 +380,10 @@
     {
       "packageName": "@gergelyke/rush-express",
       "projectFolder": "apps/rush-express"
+    },
+    {
+      "packageName": "@gergelyke/rush-next",
+      "projectFolder": "apps/rush-next"
     }
     // {
     //   /**
