@@ -13,6 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4",
-    "@gergelyke/rush-math": "~1.0.0"
+    "@gergelyke/rush-math": "^1.0.0"
   }
 }
