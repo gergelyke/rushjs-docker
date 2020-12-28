@@ -1,0 +1,16 @@
+{
+  "name": "@gergelyke/rush-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"This is the build command\" && exit 0",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4"
+  }
+}
