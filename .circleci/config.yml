@@ -19,6 +19,10 @@ jobs:
           name: build
           command: |
             node common/scripts/install-run-rush.js rebuild --verbose
+      - run:
+          name: test
+          command: |
+            node common/scripts/install-run-rush.js test
 
 workflows:
   monorepo:
