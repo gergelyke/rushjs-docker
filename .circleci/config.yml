@@ -1,0 +1,30 @@
+version: 2.1
+orbs:
+  node: circleci/node@4.0.0
+jobs:
+  rush:
+    executor: node/default
+    steps:
+      - checkout
+      - run:
+          name: changelog
+          command: |
+            git fetch origin master:refs/remotes/origin/master -a
+            node common/scripts/install-run-rush.js change -v
+      - run:
+          name: install
+          command: |
+            node common/scripts/install-run-rush.js install
+      - run:
+          name: build
+          command: |
+            node common/scripts/install-run-rush.js rebuild --verbose
+      - run:
+          name: test
+          command: |
+            node common/scripts/install-run-rush.js test
+
+workflows:
+  monorepo:
+    jobs:
+      - rush
