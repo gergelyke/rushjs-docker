@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "echo \"This is the test command\" && exit 0"
   },
   "dependencies": {
     "next": "10.0.4",
