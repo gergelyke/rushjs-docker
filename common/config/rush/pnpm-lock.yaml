@@ -1,5 +1,6 @@
 dependencies:
   '@rush-temp/rush-express': 'file:projects/rush-express.tgz'
+  '@rush-temp/rush-math': 'file:projects/rush-math.tgz'
   '@rush-temp/rush-next': 'file:projects/rush-next.tgz'
   express: 4.17.1
   next: 10.0.4_react-dom@17.0.1+react@17.0.1
@@ -662,7 +663,7 @@ packages:
       create-hash: 1.2.0
       evp_bytestokey: 1.0.3
       inherits: 2.0.4
-      safe-buffer: 5.1.2
+      safe-buffer: 5.2.1
     dev: false
     resolution:
       integrity: sha512-+7CHXqGuspUn/Sl5aO7Ea0xWGAtETPXNSAjHo48JfLdPWcMng33Xe4znFvQweqc/uzk5zSOI3H52CYnjCfb5hA==
@@ -679,7 +680,7 @@ packages:
       cipher-base: 1.0.4
       des.js: 1.0.1
       inherits: 2.0.4
-      safe-buffer: 5.1.2
+      safe-buffer: 5.2.1
     dev: false
     resolution:
       integrity: sha512-BioO1xf3hFwz4kc6iBhI3ieDFompMhrMlnDFC4/0/vd5MokpuAc3R+LYbwTA9A5Yc9pq9UYPqffKpW2ObuwX5A==
@@ -885,7 +886,7 @@ packages:
   /cipher-base/1.0.4:
     dependencies:
       inherits: 2.0.4
-      safe-buffer: 5.1.2
+      safe-buffer: 5.2.1
     dev: false
     resolution:
       integrity: sha512-Kkht5ye6ZGmwv40uUDZztayT2ThLQGfnj/T71N/XzeZeo3nf8foyW7zGTsPYkEya3m5f3cAypH+qe7YOrM1U2Q==
@@ -1086,7 +1087,7 @@ packages:
       create-hash: 1.2.0
       inherits: 2.0.4
       ripemd160: 2.0.2
-      safe-buffer: 5.1.2
+      safe-buffer: 5.2.1
       sha.js: 2.4.11
     dev: false
     resolution:
@@ -1529,7 +1530,7 @@ packages:
   /evp_bytestokey/1.0.3:
     dependencies:
       md5.js: 1.3.5
-      safe-buffer: 5.1.2
+      safe-buffer: 5.2.1
     dev: false
     resolution:
       integrity: sha512-/f2Go4TognH/KvCISP7OUsHn85hT9nUkxxA9BEWxFn+Oj9o8ZNLm/40hdlgSLyuOimsrTKLUMEorQexp/aPQeA==
@@ -2432,7 +2433,7 @@ packages:
     dependencies:
       hash-base: 3.1.0
       inherits: 2.0.4
-      safe-buffer: 5.1.2
+      safe-buffer: 5.2.1
     dev: false
     resolution:
       integrity: sha512-xitP+WxNPcTTOgnTJcrhM0xvdPepipPSf3I8EIpGKeFLjt3PlJLIDG3u8EX53ZIubkb+5U2+3rELYpEhHhzdkg==
@@ -2935,7 +2936,7 @@ packages:
       browserify-aes: 1.2.0
       evp_bytestokey: 1.0.3
       pbkdf2: 3.1.1
-      safe-buffer: 5.1.2
+      safe-buffer: 5.2.1
     dev: false
     resolution:
       integrity: sha512-RnZRo1EPU6JBnra2vGHj0yhp6ebyjBZpmUCLHWiFhxlzvBCCpAuZ7elsBp1PVAbQN0/04VD/19rfzlBSwLstMw==
@@ -2991,7 +2992,7 @@ packages:
       create-hash: 1.2.0
       create-hmac: 1.1.7
       ripemd160: 2.0.2
-      safe-buffer: 5.1.2
+      safe-buffer: 5.2.1
       sha.js: 2.4.11
     dev: false
     engines:
@@ -3209,7 +3210,7 @@ packages:
       create-hash: 1.2.0
       parse-asn1: 5.1.6
       randombytes: 2.1.0
-      safe-buffer: 5.1.2
+      safe-buffer: 5.2.1
     dev: false
     resolution:
       integrity: sha512-zVpa8oKZSz5bTMTFClc1fQOnyyEzpl5ozpi1B5YcvBrdohMjH2rfsBtyXcuNuwjsDIXmBYlF2N5FlJYhR29t8Q==
@@ -3269,14 +3270,14 @@ packages:
       integrity: sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
   /randombytes/2.1.0:
     dependencies:
-      safe-buffer: 5.1.2
+      safe-buffer: 5.2.1
     dev: false
     resolution:
       integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==
   /randomfill/1.0.4:
     dependencies:
       randombytes: 2.1.0
-      safe-buffer: 5.1.2
+      safe-buffer: 5.2.1
     dev: false
     resolution:
       integrity: sha512-87lcbR8+MhcWcUiQ+9e+Rwx8MyR2P7qnt15ynUlbm3TU/fjbgz4GsvfSUDTemtCCtVCqb4ZcEFlyPNTh9bBTLw==
@@ -3646,7 +3647,7 @@ packages:
   /sha.js/2.4.11:
     dependencies:
       inherits: 2.0.4
-      safe-buffer: 5.1.2
+      safe-buffer: 5.2.1
     dev: false
     hasBin: true
     resolution:
@@ -4166,7 +4167,7 @@ packages:
       integrity: sha1-oVe6QC2iTpv5V/mqadUk7tQpAaY=
   /tunnel-agent/0.6.0:
     dependencies:
-      safe-buffer: 5.1.2
+      safe-buffer: 5.2.1
     dev: false
     optional: true
     resolution:
@@ -4450,8 +4451,15 @@ packages:
     dev: false
     name: '@rush-temp/rush-express'
     resolution:
-      integrity: sha512-ivq6n9PC78YAR/Xmd4YvFzyX2l6ktzOFTR0jKVl10udsKLwn7qa0hMjNKgVf187QfaELwaCMdimaANU+bsG5dw==
+      integrity: sha512-M9DrKp1S1rHKTpI/JbdrbymU3qlDXhf/Xq1jmqu9WLrHs+SlSk6uoHT9hkx39J9OdzMVt8dtIdQQqh8a85rUDg==
       tarball: 'file:projects/rush-express.tgz'
+    version: 0.0.0
+  'file:projects/rush-math.tgz':
+    dev: false
+    name: '@rush-temp/rush-math'
+    resolution:
+      integrity: sha512-ij+ejCT7rGAnnmDeiuObjC0YZrgAWzM77XvrSin2lW0zP636G3kfCKzTNEkKst5byIDJ7pNxuKQzdambPMTbdg==
+      tarball: 'file:projects/rush-math.tgz'
     version: 0.0.0
   'file:projects/rush-next.tgz':
     dependencies:
@@ -4464,9 +4472,9 @@ packages:
       integrity: sha512-7/Hz8XpzjaDgjwLH8gA3syX5HtAMdZTtFCFRQJux/9Tk2yrg43n1xiAn7BnO6Z1Lgyz01F15l24ZzQZfLwW/5g==
       tarball: 'file:projects/rush-next.tgz'
     version: 0.0.0
-registry: ''
 specifiers:
   '@rush-temp/rush-express': 'file:./projects/rush-express.tgz'
+  '@rush-temp/rush-math': 'file:./projects/rush-math.tgz'
   '@rush-temp/rush-next': 'file:./projects/rush-next.tgz'
   express: ^4
   next: 10.0.4
